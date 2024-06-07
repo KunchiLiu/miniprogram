@@ -1,0 +1,94 @@
+<!-- view 小程序提供的容器组件，类似于div -->
+<!-- 轮播区域 -->
+<view class="swiper">
+  <swiper autoplay="true" interval="2000" indicator-dots="true" indicator-color="#fff" indicator-active-color="#f3514f" circular="true">
+    <swiper-item>
+      <image src="http://www.ihuaxian.net/images/202105/thumb_img/2353_thumb_G_1620791222032.jpg" mode="aspectFill" show-menu-by-longpress="true" />
+    </swiper-item>
+    <swiper-item>
+      <image src="http://www.ihuaxian.net/data/upload/image/202101/j20210118150356y38146b.jpg" mode="aspectFill" show-menu-by-longpress="true" />
+    </swiper-item>
+    <swiper-item>
+      <image src="http://www.ihuaxian.net/data/upload/image/202101/n20210118150412w42989c.jpg" mode="aspectFill" show-menu-by-longpress="true" />
+    </swiper-item>
+  </swiper>
+</view>
+
+<!-- 公司信息 -->
+<view class="info">
+  <text><text class="iconfont icon-peisong"></text> 同城配送</text>
+  <text><text class="iconfont icon-hangyelongtou"></text> 行业龙头</text>
+  <text><text class="iconfont icon-banxiaoshisongda"></text> 半小时送达</text>
+  <text><text class="iconfont icon-haoping"></text> 100%好评</text>
+</view>
+<!-- 商品导航 -->
+<view class="good-nav">
+  <view>
+    <navigator url="/pages/list/list">
+      <image src="../../assets/category/cate-1.png" mode="" />
+      <text>鲜花玫瑰</text>
+    </navigator>
+  </view>
+
+  <view>
+    <navigator url="/pages/list/list">
+      <image src="../../assets/category/cate-1.png" mode="" />
+      <text>鲜花玫瑰</text>
+    </navigator>
+  </view>
+
+  <view>
+    <navigator url="/pages/list/list">
+      <image src="../../assets/category/cate-1.png" mode="" />
+      <text>鲜花玫瑰</text>
+    </navigator>
+  </view>
+
+  <view>
+    <navigator url="/pages/list/list">
+      <image src="../../assets/category/cate-1.png" mode="" />
+      <text>鲜花玫瑰</text>
+    </navigator>
+  </view>
+
+  <view>
+    <navigator url="/pages/list/list">
+      <image src="../../assets/category/cate-1.png" mode="" />
+      <text>鲜花玫瑰</text>
+    </navigator>
+  </view>
+</view>
+
+<!-- 推荐商品 -->
+<view class="good-hot">
+  <scroll-view class="scroll-x" scroll-x="true">
+    <view>
+      <view class="good-item">
+        <image src="http://www.ihuaxian.net/images/202405/thumb_img/2510_thumb_G_1715557518930.jpg" mode="aspectFill" />
+        <text>鲜花玫瑰</text>
+        <text>193</text>
+      </view>
+    </view>
+    <view>
+      <view class="good-item">
+        <image src="http://www.ihuaxian.net/images/202305/thumb_img/2438_thumb_G_1682919200281.jpg" mode="aspectFill" />
+        <text>鲜花玫瑰</text>
+        <text>289</text>
+      </view>
+    </view>
+    <view>
+      <view class="good-item">
+        <image src="http://www.ihuaxian.net/images/202402/goods_img/2499_P_1707437793588.jpg" mode="aspectFill" />
+        <text>鲜花玫瑰</text>
+        <text>167</text>
+      </view>
+    </view>
+    <view>
+      <view class="good-item">
+        <image src="http://www.ihuaxian.net/images/202402/goods_img/2497_P_1707432514703.jpg" mode="aspectFill" />
+        <text>鲜花玫瑰</text>
+        <text>313</text>
+      </view>
+    </view>
+  </scroll-view>
+</view>

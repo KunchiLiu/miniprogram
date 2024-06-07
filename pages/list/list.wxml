@@ -1,0 +1,2 @@
+<!--pages/list/list.wxml-->
+<navigator open-type="navigateBack" delta="1">返回上一页</navigator>

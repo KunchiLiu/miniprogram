@@ -1,0 +1,7 @@
+<!-- <view>
+  <button bindtap="btnHandler" data-id="1" data-name="tom">按钮</button>
+</view> -->
+
+<view bindtap="parentHandler" data-parentid="1" data-parentname="tom">
+  <button data-id="1" data-name="tom">按钮</button>
+</view>
